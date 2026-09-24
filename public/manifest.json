@@ -1,0 +1,27 @@
+{
+  "name": "Symphony · Browser Use Cloud Agent Hub",
+  "short_name": "Symphony",
+  "description": "Run AI browser agents, cloud browsers, skills, scheduled automations and the INSUS Manpower custom agent.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "categories": ["productivity", "business", "utilities"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Core Agent", "short_name": "Agent", "url": "/" },
+    { "name": "INSUS Custom Agent", "short_name": "INSUS", "url": "/custom-agent" },
+    { "name": "Automations", "short_name": "Automations", "url": "/automations" },
+    { "name": "Cloud Browsers", "short_name": "Browsers", "url": "/browsers" }
+  ]
+}
